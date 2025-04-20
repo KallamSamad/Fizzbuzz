@@ -19,7 +19,7 @@ Score = 0
 for x in range(5):
     number = random.randint(1,100)
     print(number)
-    answer = input("What do you say?")
+    answer = input("What do you say? - fizz, buzz or fizzbuzz?")
 
     correct_answer = logic(number)
 
